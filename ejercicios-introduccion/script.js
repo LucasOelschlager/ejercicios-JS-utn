@@ -71,6 +71,8 @@ if (product > 1000) {
 /*Ejercicio 5: Validación de acceso con contraseña
 Pedir una contraseña al usuario y validar si coincide con una predefinida. */
 
+//PRACTICA 2 (DO... WHILE)
+
 /* 
 let password = "1234";
 let intentos = 0;
@@ -190,5 +192,50 @@ do {
     alert("Ingresaste un numero no válido");
   }
 } while (nroIngresado < 1 || nroIngresado > 10);
+
+*/
+
+//PRACTICA 3(FOR)
+/*Ejercicio 1: Contar del 1 al 10
+Mostrar los números del 1 al 10 en consola. 
+for (let i = 0; i < 10; i++) {
+  console.log(i + 1);
+}
+  */
+
+/*
+Ejercicio 2: Sumar los primeros 10 números naturales
+Calcular y mostrar la suma de los números del 1 al 10.
+ 
+let acc = 0;
+for (let i = 0; i < 10; i++) {
+  acc += i + 1;
+}
+console.log(`La suma de los primeros 10 numeros naturales es ${acc}`);
+*/
+
+/*Ejercicio 3: Mostrar tabla de multiplicar del 5
+Pedir al usuario un número y mostrar su tabla de multiplicar del 1 al 10.
+
+for (let i = 0; i < 10; i++) {
+  console.log((i + 1) * 5);
+}
+
+let acc = 0;
+
+for (let i = 0; i < 20; i++) {
+  if ((i + 1) % 2 === 0) {
+    acc += i + 1;
+  }
+}
+
+console.log(`La suma de los numeros pares del 1 al 20 es ${acc}`);
+ */
+
+/*Ejercicio 5: Mostrar cuenta regresiva
+Mostrar una cuenta regresiva del 10 al 1. 
+for (let i = 10; i > 0; i--) {
+  console.log(i);
+}
 
 */
